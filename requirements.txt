@@ -1,0 +1,19 @@
+# Configuration Audit Tool - Dependencies
+
+# Core dependencies
+# Note: These are standard library, no installation needed
+# - os, sys, stat, pwd, grp, re, json, subprocess, pathlib
+# - dataclasses, enum, typing, datetime, logging
+
+# Optional: AWS SDK for cloud audits
+# Install with: pip install boto3
+boto3>=1.26.0
+
+# Development dependencies
+# Install with: pip install -r requirements-dev.txt
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
